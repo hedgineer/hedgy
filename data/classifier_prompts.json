@@ -1,0 +1,67 @@
+{"prompts": [
+    {
+        "name": "risk_management",
+        "examples": [
+            "What are the bigget risks in my portfolio",
+            "What are my biggest risks?"
+        ],
+        "instructions":
+            "Classify a request as risk_management if the user asks about the performance or risks in their portfolio"
+    },
+    {
+        "name": "fundamental_data",
+        "examples": [
+            "What will AAPL's IPhone Sales be?",
+            "What was Netflix's historical subscription multiple to earnings?",
+            "What was General Motors EPS for Q3 2021"
+        ],
+        "instructions": "Classify a request as research_and_modeling when a user requests fundamental data about a stock"
+    },
+    {
+        "name": "performance_history",
+        "examples": [
+            "What is my year to date PNL (profit and loss)?",
+            "What are my biggest loses and biggest winners?"
+        ],
+        "instructions": "Classify a request as research_and_modeling when a user requests about historical performance of their portfolio"
+    },
+    {
+        "name": "corporate_access",
+        "examples": [
+            "When is the next corporate access event for Morgan Stanley?"
+        ],
+        "instructions": "Classify a request as corprate_access if they ask about meetings or events with a corporate"
+    },
+    {
+        "name": "earnings_date",
+        "examples": [
+            "When is the next earnings date for Mcdonalds?",
+            "What was the time series of earnings dates for IBM?"
+        ],
+        "instructions": "Classify a request as earnings_date if the user asks about a corporate earnings date"
+    },
+    {
+        "name": "data_access",
+        "examples": [
+            "What data do we have on TSLA?",
+            "What credit card data do we have?",
+            "Do we have data on health care claims?"
+        ],
+        "instructions": "Classify a request as data_access when a user asks what data is available?"
+    },
+    {
+        "name": "macro",
+        "examples": [
+            "What were the historical inflation, gdp, and employment numbers for the US?"
+        ],
+        "instructions": "Classify a request as macro if the request is about macro economic data bout a country or region"
+    },
+    {
+        "name": "other",
+        "examples": [
+            "What is the best way to get to the office?",
+            "Who won the Super Bowl?"
+        ],
+        "instructions": "Classify a request as other if it is not one of the above categories"
+    }
+]}
